@@ -1,0 +1,31 @@
+body {
+  margin: auto;
+  max-width: 36em;
+  padding: 0 1em;
+  margin-bottom: 1em; }
+
+main {
+  line-height: 1.5em; }
+
+a {
+  word-wrap: break-word; }
+
+img {
+  display: block; }
+
+h1, h2, h3, header, footer, nav {
+  text-align: center; }
+
+header, footer, nav {
+  font-size: 90%; }
+
+address ul, nav ul {
+  padding: 0; }
+
+address ul, address li, nav ul, nav li {
+  display: inline; }
+
+address li::before, nav li::before {
+  content: "\02022\a0"; }
+
+
