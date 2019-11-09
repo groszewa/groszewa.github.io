@@ -87,11 +87,19 @@
       <p>“Weird quote here”</p>
 
     </footer>
+
     <nav>
-      Last modified <time datetime="2019-10-02T12:23:13-05:00">Wed, 02 Oct 2019 12:23:13 -0500</time>
+      <!-- Last modified <time datetime="2019-10-02T12:23:13-05:00">Wed, 02 Oct 2019 12:23:13 -0500</time> -->
+      <p>This document was last modified <span id="lastModTime"></span>.</p>
       <ul>
       </ul>
     </nav>
+
+  
+  <script>
+    document.getElementById("lastModTime").innerHTML = document.lastModified;
+  </script>
+
   </body>
 </html>
 
